@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//c1
 //return index position of target or -1 if not found
 func linearSearch(list []int, target int) int {
 	for i, v := range list {

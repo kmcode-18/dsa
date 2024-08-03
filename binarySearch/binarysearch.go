@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+//c1
 //must be sorted list
 //return index position of target or -1 if not found
 

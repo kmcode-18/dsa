@@ -32,3 +32,16 @@ func calTailFact(n, current int) int {
 	}
 	return calTailFact(n-1, n*current)
 }
+
+//fibonacci series
+//0,1,1,2,3,5,8,13,21...
+func fibonacci() func() int {
+	first := 0
+	second := 1
+	return func() int {
+		res := first
+		first, second = second, first+second
+		return res
+	}
+
+}
